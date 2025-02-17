@@ -19,6 +19,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Ray {
+            bindings = <&none>;
+            key-positions = <73>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
